@@ -1,0 +1,16 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: dodgerblue;
+    text-align-last: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container > img {
+    margin: auto;
+}
