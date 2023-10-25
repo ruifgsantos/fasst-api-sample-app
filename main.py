@@ -19,6 +19,6 @@ async def home_page(request: Request, name: str):
     return templates.TemplateResponse("template2.html", {"request": request, "name": name})
 
 
-@app.get("/home")
+@app.get("/home/message")
 async def message():
     return {"message": "Hello World"}
